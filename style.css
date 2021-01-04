@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+p{
+    color: black;
+    padding: 1rem;
+}
+h1{
+    color:black;
+    text-align: center;
+    padding:2rem;
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    background-color: rgb(31, 29, 29);
+    padding: 1rem;
+}
+a{
+    font-family: sans-serif;
+    color:white;
+    background-color: rgb(31,29,29);
+    text-decoration: none;
+    padding:1rem;
+}
+a:hover{
+    background-color: rgb(98, 163, 189);
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.active{
+    background-color: rgb(184, 177, 177);
+}

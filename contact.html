@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        *{
+            background-color: rgb(153, 221, 248);
+        }
+        .text{
+            text-align: center;
+            color: #fff;
+            margin:1rem;
+            padding:1rem;
+        }
+        .box{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background: white;
+            width:40rem;
+            padding:3rem 2rem;
+            margin:1rem auto;
+            border-radius: 0.5rem;
+            font-size: 1rem;
+        }
+        input[type=submit],select{
+            background-color: green;
+            width:100%;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 0.5rem;  
+        }
+        input[type=submit]:hover{
+            background-color: rgb(9, 190, 24);
+        }
+        input[type=text],select{
+            background-color: rgb(238, 236, 236);
+            padding: 1rem;
+            margin: 1rem;
+            width:75%;
+            border:none;
+            border-radius: 0.5rem;
+        }
+        input[type=password],select{
+            background-color: rgb(238, 236, 236);
+            padding: 1rem;
+            margin:1rem;
+            width:75%;
+            border:none;
+            border-radius: 0.5rem;
+        }
+        label{
+            background-color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <ul>
+    <li><a href="webpage.html">HOME</a></li>
+    <li><a href="aboutus.html">ABOUT US</a></li>
+    <li><a href="gallery.html">OUR GALLERY</a></li>
+    <li><a class="active" href="contact.html">CONTACT US</a></li>
+</ul>
+    <div class="text"><h2><b>Welcome to our page!</b></h2></div>
+    <div class="box">
+        <label>Username</label><input type="text" name="username" placeholder="Username">
+        <br><label>Password</label><input type="password" placeholder="Password"><br>
+        <label>E-mail ID</label><input type="text" placeholder="Eg: abc@xyz.com"><br>
+        <label>Gender </label><input type="radio" name="0"> M
+        <input type="radio" name="0"> F<br><br>
+        <input type="checkbox"> Remember Me<br><br>
+        <input type="submit" value="SUBMIT">
+    </div>
+</body>
+</html>
